@@ -1,0 +1,44 @@
+/*
+1. dashicons
+2. admin-bar
+3. common
+4. forms
+5. admin-menu
+6. dashboard
+7. list-tables
+8. edit
+9. revisions
+10. media
+11. themes
+12. about
+13. nav-menus
+14. wp-pointer
+15. widgets
+16. site-icon
+17. l10n
+18. buttons
+19. wp-auth-check
+ */
+
+@import "dashicons.css";
+@import "admin-bar.css";
+@import "common.css";
+@import "forms.css";
+@import "admin-menu.css";
+@import "dashboard.css";
+@import "list-tables.css";
+@import "edit.css";
+@import "revisions.css";
+@import "media.css";
+@import "themes.css";
+@import "about.css";
+@import "nav-menus.css";
+@import "wp-pointer.css";
+@import "widgets.css";
+@import "site-icon.css";
+@import "l10n.css";
+@import "buttons.css";
+@import "wp-auth-check.css";
+
+
+
