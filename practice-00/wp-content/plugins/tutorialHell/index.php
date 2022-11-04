@@ -188,6 +188,7 @@
 
 //_________________________________________________________________________________________________________________
 // https://developer.wordpress.org/apis/handbook/dashboard-widgets/#removing-default-dashboard-widgets
+// # REMOVE WIDGETS from dashboard
 
 add_action( 'wp_dashboard_setup', 'wporg_remove_all_dashboard_metaboxes' );
 
@@ -202,4 +203,24 @@ function wporg_remove_all_dashboard_metaboxes()
     remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' );
     remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');
     remove_meta_box('dashboard_site_health', 'dashboard', 'normal');
+}
+
+//_________________________________________________________________________________________________________________
+// https://developer.wordpress.org/apis/handbook/dashboard-widgets/#removing-default-dashboard-widgets
+// # REMOVE MENUS from admin side panel
+
+add_action( 'admin_menu', 'remove_menus' );
+
+function remove_menus() {
+    remove_menu_page( 'index.php' );                  //Dashboard
+    remove_menu_page( 'jetpack' );                    //Jetpack*
+//    remove_menu_page( 'edit.php' );                   //Posts
+    remove_menu_page( 'upload.php' );                 //Media
+//    remove_menu_page( 'edit.php?post_type=page' );    //Pages
+    remove_menu_page( 'edit-comments.php' );          //Comments
+    remove_menu_page( 'themes.php' );                 //Appearance
+//    remove_menu_page( 'plugins.php' );                //Plugins
+    remove_menu_page( 'users.php' );                  //Users
+    remove_menu_page( 'tools.php' );                  //Tools
+    remove_menu_page( 'options-general.php' );        //Settings
 }
