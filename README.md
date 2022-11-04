@@ -30,3 +30,5 @@ https://codex.wordpress.org/Creating_Admin_Themes
 create new menu on admin
 https://wpmudev.com/blog/creating-wordpress-admin-pages/
 
+create menu on admin with a plugin
+https://themes.artbees.net/blog/wordpress-custom-admin-pages/
