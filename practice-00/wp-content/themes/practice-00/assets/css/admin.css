@@ -25,20 +25,20 @@
 @import "common.css";
 @import "forms.css";
 @import "admin-menu.css";
-@import "dashboard.css";
-@import "list-tables.css";
-@import "edit.css";
-@import "revisions.css";
-@import "media.css";
-@import "themes.css";
-@import "about.css";
-@import "nav-menus.css";
-@import "wp-pointer.css";
-@import "widgets.css";
-@import "site-icon.css";
-@import "l10n.css";
-@import "buttons.css";
-@import "wp-auth-check.css";
+/*@import "dashboard.css";*/
+/*@import "list-tables.css";*/
+/*@import "edit.css";*/
+/*@import "revisions.css";*/
+/*@import "media.css";*/
+/*@import "themes.css";*/
+/*@import "about.css";*/
+/*@import "nav-menus.css";*/
+/*@import "wp-pointer.css";*/
+/*@import "widgets.css";*/
+/*@import "site-icon.css";*/
+/*@import "l10n.css";*/
+/*@import "buttons.css";*/
+/*@import "wp-auth-check.css";*/
 
 /*
 Here is a partial list of the important style references used in the Administration Panels. Per CSS web standards, # denotes a style ID and . denotes a style class.
