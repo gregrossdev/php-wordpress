@@ -1,4 +1,7 @@
 # Practice Wordpress Repo 
+must type in localhost to make api available 
+```php -S 127.0.0.1:8000``` 
+
 
 ## practice-00
 ### modifying admin css
