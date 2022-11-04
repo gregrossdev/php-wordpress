@@ -26,3 +26,7 @@ wordpress generates styling via postcss in the following order
 
 create custom plugin to change admin
 https://codex.wordpress.org/Creating_Admin_Themes
+
+create new menu on admin
+https://wpmudev.com/blog/creating-wordpress-admin-pages/
+
