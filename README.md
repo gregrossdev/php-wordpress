@@ -23,3 +23,6 @@ wordpress generates styling via postcss in the following order
 17. l10n
 18. buttons
 19. wp-auth-check
+
+create custom plugin to change admin
+https://codex.wordpress.org/Creating_Admin_Themes
